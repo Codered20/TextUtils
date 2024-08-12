@@ -16,10 +16,6 @@ const Navbar = (props) => {
                             <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
-                            {/* <li className="nav-item">
-                                <a className="nav-link" href="/about">{props.About}</a>
-                            </li> */}
-
                         </ul>
                         <div className={`form-check form-switch text-${props.Mode==='light'? 'dark':'light'}`}>
                             <input className="form-check-input" onClick={props.toggleMode} type="checkbox" role="switch" id="flexSwitchCheckDefault" />
@@ -31,8 +27,4 @@ const Navbar = (props) => {
         </div>
     )
 }
-// Navbar.ReactPropTypes={
-//     Title:ReactPropTypes.string,
-//     About:ReactPropTypes.string
-// }
 export default Navbar
