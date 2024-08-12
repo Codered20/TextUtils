@@ -1,6 +1,4 @@
 import React from "react";
-// import { ReactPropTypes } from "react";
-// import { Link } from "react-router-dom";
 
 const Navbar = (props) => {
     return (
