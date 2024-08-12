@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
-import { Speech } from "react-speech";
 
 const TextForm = (props) => {
     const [text, setText] = useState('');
