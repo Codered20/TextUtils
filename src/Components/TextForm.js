@@ -35,23 +35,6 @@ const TextForm = (props) => {
         setWords(text.split(/\s+/).filter(word => word.length > 0).length); // Counts words correctly
         setLen(text.replace(/\s/g, "").length); // Counts characters excluding spaces
     }, [text]);
-    
-
-    // useEffect(() => {
-    //     const spaces = text.split(" ");
-    //     setWords(spaces.filter(word => word.length > 0).length);
-    //     setLen(findChar());
-    // },[text]); 
-
-    // const findChar = () => {
-    //     let num = 0;
-    //     for (let c of text) {
-    //         if (c !== " ") { 
-    //             num++;
-    //         }
-    //     }
-    //     return num;
-    // };
 
     const handleLen = () =>{
         const spaces = text.split(" ").length;
